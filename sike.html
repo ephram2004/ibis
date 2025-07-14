@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sike</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0a0a0a;
+            color: #f0f0f0;
+        }
+
+        header {
+            background: #000;
+            padding: 1rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header img {
+            height: 40px;
+        }
+
+        nav a {
+            color: #f0f0f0;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a.highlight {
+            color: gold;
+        }
+
+        .hero {
+            padding: 5rem 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin: 1rem auto;
+            max-width: 600px;
+            color: #ddd;
+        }
+
+        .rainbow-text {
+            background: linear-gradient(90deg, yellow, orange, purple);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="/assets/ibis.png" alt="Logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Our Sellers</a>
+            <a href="#">All Spirits</a>
+            <a href="#" class="highlight rainbow-text">Find My Flavor</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Sike :)</h1>
+        <p>Cheers 🍻</p>
+    </section>
+</body>
+
+</html>
